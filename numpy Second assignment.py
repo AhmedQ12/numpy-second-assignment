@@ -124,8 +124,8 @@ def function6():
     # Create a null vector of size 10 but the fifth and eighth value which is 10,20 respectively
 
     arr = np.zeros(10)
-    arr[5] = 10
-    arr[8] = 20
+    arr[4] = 10
+    arr[7] = 20
     print(arr)
 
     return arr
